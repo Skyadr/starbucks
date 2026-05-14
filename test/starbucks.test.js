@@ -51,5 +51,16 @@ describe('Testes para gestão de cafeteria', function() {
         //Assert -> Afirmar, ou seja, comparar o resultado obtido com o resultado esperado
         assert.equal(quantidadeDeCafes, retornoEsperado);
     })
+    it ('TC 04 - Retornar uma lista de pedidos vazia', function() {
+        //Arrange -> Organizar ou arranjar os dados necessários para o teste
 
+        const listaPedidos = [];
+        
+        const retornoEsperado = 0;
+        //Act -> Agir, ou seja, executar a função ou método a ser testado
+        const quantidadeDeCafes = contabilizarQuantidadeCafe(listaPedidos);
+
+        //Assert -> Afirmar, ou seja, comparar o resultado obtido com o resultado esperado
+        assert.equal(quantidadeDeCafes, retornoEsperado);
+    })
 });
