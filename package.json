@@ -12,5 +12,17 @@
   "type": "module",
   "dependencies": {
     "mocha": "^11.7.5"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skyadr/starbucks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Skyadr/starbucks/issues"
+  },
+  "homepage": "https://github.com/Skyadr/starbucks#readme"
 }
